@@ -1,0 +1,157 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.red{
+	background-color: tomato;
+}
+
+.lime{
+	background-color: #55efc4;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.green{
+	background-color: #1abc9c;
+}
+
+.concrete{
+	background-color: #95a5a6;
+}
+
+.blue{
+	background-color: #2980b9;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.purple{
+	background-color: purple;
+}
+
+.lightblue{
+	background-color: lightblue;
+}
+
+.pink{
+	background-color: #f78fb3;
+}
+
+.ice{
+	background-color: #c7ecee;
+}
+
+.wheat{
+	background-color: wheat;
+}
+
+.col{
+	min-height: 100px;
+	float: left;
+	padding: 10px;
+}
+
+
+
+.pageContainer{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.col12{
+	width: 100%;
+}
+
+.col11{
+	width: 91.66%;
+}
+
+.col10{
+	width: 83.33%;
+}
+
+.col9{
+	width: 75%;
+}
+
+.col8{
+	width: 66.66%;
+}
+
+.col7{
+	width: 58.33%;
+}
+
+.col6{
+	width: 50%;
+}
+
+.col5{
+	width: 41.66%;
+}
+
+.col4{
+	width: 33.33%;
+}
+
+.col3{
+	width: 25%;
+}
+
+.col2{
+	width: 16.66%;
+}
+
+.col1{
+	width: 8.33%;
+}
+
+/*clear fix hack*/
+.row:after{
+	clear: both;
+	display: block;
+	content:'';
+}
+
+.height50{
+	height: 50px;
+}
+
+.height100{
+	height: 100px;
+}
+
+.height200{
+	height: 200px;
+}
+
+.height300{
+	height: 300px;
+}
+
+.height330{
+	height: 330px;
+}
+
+.box{
+	border: 1px solid black;
+}
+
+.absoluteRight{
+    width: 200px;
+    min-height: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.relative{
+	position: relative;
+	min-height: 100px;
+}
